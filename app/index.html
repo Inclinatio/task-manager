@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task-manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- HEADER START -->
+	<div class="fixed-to-top">
+		<header class="header">
+			<div class="container flex-container">
+				<button class="add-task">
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="user-nav">
+					<a href="#"><i class="icon icon-user"></i></a>
+					<a href="#"><i class="icon icon-logout"></i></a>
+				</nav>
+			</div>
+		</header>
+		<div class="toggle-task-type">
+			<div class="container">
+				<nav class="toggle-task-list">
+					<a href="#" class="active">Активные задачи</a>
+					<a href="#">Все задачи</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- HEADER END -->
+
+	<!-- MAIN START -->
+	<main>
+		<div class="task-content" id="active-task">
+			<div class="container">
+				<div class="task-day">
+					<span class="day">09</span>
+					<span class="month">фев</span>
+				</div>
+				<div class="all-task-wrap">
+					<!-- ONE TASK START -->
+					<div class="task open">
+						<div class="to-do-time">9:00</div>
+						<div class="task-header flex-container">
+							<span class="icon icon-arrow"></span>
+							<div class="short-task-text">Какой-то таск</div>
+							<span class="icon icon-cancel"></span>
+						</div>
+						<div class="task-content-wrap">
+							<div class="time-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-time"></span>
+								</div>
+								<span class="time">9:00</span>
+								<div class="task-icon">
+									<span class="icon icon-bell"></span>
+								</div>								
+							</div>
+							<div class="task-text-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-list"></span>
+								</div>
+								<div class="text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos et veritatis necessitatibus nostrum, cumque quasi quaerat facere aliquid ipsam alias nulla modi consectetur deserunt dolore praesentium, fugiat vero architecto maiores!
+								</div>
+							</div>
+							<div class="task-check-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-check_box_outline"></span>
+								</div>
+								<div class="check-box-text">
+									Задача еще не выполнена
+								</div>
+							</div>
+							<div class="task-edit-row flex-container">
+								<div class="task-icon">
+									<div class="icon icon-edit-not_active"></div>	
+								</div>
+							</div>						
+						</div>
+					</div>
+					<!-- ONE TASK END -->
+					<!-- ONE TASK START -->
+					<div class="task success open">
+						<div class="to-do-time">9:00</div>
+						<div class="task-header flex-container">
+							<span class="icon icon-arrow"></span>
+							<div class="short-task-text">Какой-то таск</div>
+							<span class="icon icon-cancel"></span>
+						</div>
+						<div class="task-content-wrap">
+							<div class="time-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-time"></span>
+								</div>
+								<span class="time">9:00</span>
+								<div class="task-icon">
+									<span class="icon icon-bell"></span>
+								</div>								
+							</div>
+							<div class="task-text-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-list"></span>
+								</div>
+								<div class="text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos et veritatis necessitatibus nostrum, cumque quasi quaerat facere aliquid ipsam alias nulla modi consectetur deserunt dolore praesentium, fugiat vero architecto maiores!
+								</div>
+							</div>
+							<div class="task-check-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-check"></span>
+								</div>
+								<div class="check-box-text">
+									Я выполнил задачу
+								</div>
+							</div>
+							<div class="task-edit-row flex-container">
+								<div class="task-icon">
+									<div class="icon icon-edit-not_active"></div>	
+								</div>
+							</div>						
+						</div>
+					</div>
+					<!-- ONE TASK END -->	
+					<!-- ONE TASK START -->
+					<div class="task warning">
+						<div class="to-do-time">9:00</div>
+						<div class="task-header flex-container">
+							<span class="icon icon-arrow"></span>
+							<div class="short-task-text">Какой-то таск</div>
+							<span class="icon icon-cancel"></span>
+						</div>
+						<div class="task-content-wrap">
+							<div class="time-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-time"></span>
+								</div>
+								<span class="time">9:00</span>
+								<div class="task-icon">
+									<span class="icon icon-bell"></span>
+								</div>								
+							</div>
+							<div class="task-text-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-list"></span>
+								</div>
+								<div class="text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos et veritatis necessitatibus nostrum, cumque quasi quaerat facere aliquid ipsam alias nulla modi consectetur deserunt dolore praesentium, fugiat vero architecto maiores!
+								</div>
+							</div>
+							<div class="task-check-row flex-container">
+								<div class="task-icon">
+									<span class="icon icon-check_box_outline"></span>
+								</div>
+								<div class="check-box-text">
+									Задача еще не выполнена
+								</div>
+							</div>
+							<div class="task-edit-row flex-container">
+								<div class="task-icon">
+									<div class="icon icon-edit-not_active"></div>	
+								</div>
+							</div>						
+						</div>
+					</div>
+					<!-- ONE TASK END -->
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- MAIN END -->
+
+</body>
+</html>
